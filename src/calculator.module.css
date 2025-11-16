@@ -1,0 +1,37 @@
+.section{
+    border: solid rgb(68, 68, 68);
+    border-radius: 0.5vw;
+    background-color: rgb(39, 39, 39);
+    padding: clamp(0.5rem, 1vw, 1rem);
+}
+.section button{
+    border-radius: 1vw;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    width: clamp(70px, 10vw, 100px);
+    height: clamp(70px, 10vw, 100px);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+.section p{
+    border-radius: 1vw;
+    background: grey;
+    font-size: clamp(1rem, 1.5vw, 1.5rem);
+    display: grid;
+    place-items: center;
+    width: clamp(210px, 30vw, 300px);
+    height: clamp(70px, 10vw, 100px);
+    margin-top: 0%;
+}
+.layer{
+    display: flex;
+    flex-direction: row;
+}
+.clear{
+    background-color: rgb(150, 150, 150);
+}
+.operator{
+    background-color: rgb(0, 0, 0);
+}
+.inputbtn{
+    background-color: rgb(50, 50, 50);
+}
